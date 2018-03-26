@@ -11,7 +11,7 @@ namespace app\controllers;
 use yii\web\Controller;
 use app\models\Image;
 use Yii;
-use yii\data\pagination;
+use yii\data\Pagination;
 
 class ImageController extends Controller
 {
