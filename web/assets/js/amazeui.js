@@ -6875,7 +6875,7 @@ var transition = UI.support.transition;
 
 /**
  * PureView
- * @desc Image browser for Mobile
+ * @desc image browser for Mobile
  * @param element
  * @param options
  * @constructor
@@ -7065,7 +7065,7 @@ PureView.prototype.refreshSlides = function() {
   this.$slider = $pureview.find(options.selector.slider);
   this.$nav = $pureview.find(options.selector.nav);
   var viewedFlag = 'data-am-pureviewed';
-  // for WeChat Image Preview
+  // for WeChat image Preview
   this.imgUrls = this.imgUrls || [];
 
   if (!total) {

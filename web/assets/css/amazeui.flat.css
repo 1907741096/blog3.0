@@ -2928,9 +2928,9 @@ fieldset[disabled] .am-checkbox-inline {
   border-bottom-left-radius: 2px !important;
 }
 /* ==========================================================================
-   Component: Image
+   Component: image
  ============================================================================ */
-/* Image thumbnails */
+/* image thumbnails */
 .am-img-thumbnail {
   display: inline-block;
   max-width: 100%;
@@ -3983,7 +3983,7 @@ fieldset[disabled] .am-checkbox-inline {
   }
 }
 /* ==========================================================================
-   Component: Article
+   Component: article
  ============================================================================ */
 .am-article:before,
 .am-article:after {
@@ -7025,7 +7025,7 @@ img.am-thumbnail,
   max-width: 100%;
   height: auto;
 }
-/* Image caption */
+/* image caption */
 .am-thumbnail-caption {
   margin: 0;
   padding: 0.8rem;
@@ -7889,7 +7889,7 @@ img.am-thumbnail,
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-/* Text Image Replacement */
+/* Text image Replacement */
 .am-text-ir {
   font: 0/0 a;
   color: transparent;
