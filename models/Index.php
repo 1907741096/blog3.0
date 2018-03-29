@@ -11,7 +11,7 @@ use Yii\db\ActiveRecord;
 class Index extends ActiveRecord {
 
     public static function talbeName(){
-        return "{{%article}}";
+        return "{{%articl}}";
     }
 
 }
