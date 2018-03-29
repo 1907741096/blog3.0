@@ -26,14 +26,17 @@ CREATE TABLE `blog_admin` (
   `name` varchar(50) NOT NULL,
   `username` varchar(50) NOT NULL,
   `password` char(32) NOT NULL,
+  `email` varchar(50) not null default '',
   `level` tinyint(1) NOT NULL DEFAULT '1',
   `status` tinyint(1) NOT NULL DEFAULT '1',
   `create_time` datetime NOT NULL,
   `lastlogin_time` datetime NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `name` (`name`),
-  UNIQUE KEY `username` (`username`)
+  UNIQUE KEY `username` (`username`,`password`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT into `blog_admin`(`name`,`username`,`password`,`create_time`,`lastlogin_time`) values('管理员','admin',md5('admin'),now(),now());
 
 -- ----------------------------
 --  Table structure for `blog_article`
