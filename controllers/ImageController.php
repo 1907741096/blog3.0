@@ -12,7 +12,7 @@ use yii\web\Controller;
 use app\models\Image;
 use Yii;
 use yii\data\Pagination;
-//test22
+//test2
 
 class ImageController extends Controller
 {
